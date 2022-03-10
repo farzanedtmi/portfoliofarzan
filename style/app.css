@@ -8,6 +8,9 @@
 body {
   font-family: var(--default-font-family);
 }
+h4 {
+  font-size: 48px;
+}
 
 h1,
 h2,
@@ -26,19 +29,18 @@ h1 {
 }
 
 
-.about-section{
-   padding: 160px 20px;
-   text-align: center;
-   
+.about-section {
+  padding: 100px 20px;
+  text-align: center;
 }
-.about-section-content{
+.about-section-content {
   margin: 40px;
 }
-.about-section h1{
+.about-section h1 {
   font-size: 64px;
-line-height: 80px;
+  line-height: 80px;
 }
-.about-section h2{
+.about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
@@ -113,13 +115,53 @@ p {
     text-align: center;
   }
 }
-.about-section-content h3{
+.about-section-content h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
   line-height: 2;
   margin: 20px 0 0;
 }
-.about-section-content p{
+.about-section-content p {
   font-size: 14px;
+}
 
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 10px 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
 }
